@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    background-color: #035aa6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wrapper {
+    max-width: 500px;
+}
+
+div {
+    border-radius: 5px;
+}
+
+.small {
+    color: green;
+    border: 10px solid black;
+}
+
+.middle {
+    color: green;
+    border: 20px solid black;
+}
+
+.big {
+    color: yellow;
+    border: 20px solid green;
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px black;
+    transition-property: color;
+    transition-duration: 2s;
+}
